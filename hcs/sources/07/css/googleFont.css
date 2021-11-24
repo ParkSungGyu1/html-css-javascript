@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+body{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#naverlogo{
+    text-decoration: none;
+    color: #19ce60;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 1px 1px black;
+}
+
+p{
+    line-height: 10px;
+    text-decoration: underline;
+    letter-spacing: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table thead th{
+    border: 2px dotted red;
+}
+
+table tbody th{
+    border: 1px solid green;
+}
+
+th{
+    width: 2000px;
+    height: 50px;
+}
+
+td{
+    border: 1px solid blue;
+}

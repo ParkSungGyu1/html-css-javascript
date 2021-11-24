@@ -1,0 +1,45 @@
+.box1{
+    box-sizing: border-box;
+    margin: 0px auto 0px auto;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.box2{
+    margin-left: auto;
+    margin-right: auto;    
+    width: 600px;
+    height: 600px;
+    background: red;
+}
+
+.box3{
+    box-sizing: border-box;
+    margin: 0px auto;
+    border: 1px solid green;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background: tomato;
+    text-align: left;
+}
+
+.box4{
+    position: fixed;
+    top: 30px;
+    left: 50px;
+
+    width: 100px;
+    height: 100px;
+
+    background: hotpink;
+}
+
+
+span{
+
+}
