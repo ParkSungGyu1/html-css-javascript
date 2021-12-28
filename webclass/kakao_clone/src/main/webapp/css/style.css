@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+
+img{
+    width: 520px;
+    height: 300px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.left_h2{
+    text-align: left;
+    margin: 1px
+}
+.left_p{
+    margin: 1px;
+}
+.main_div {
+    margin: 7% 15%;
+    text-align: center;
+    height: 100%;
+}
+.main_left_div{
+    display: inline-block;
+    text-align: left;
+}
+.main_right_div{
+    padding: 50px;
+    border: 1px solid rgb(167, 163, 163);
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    text-align: left;
+}
+
+
+.form_div{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #5f5b5b;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.form_div_long{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.y_btn{
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: #fee500;
+    cursor: pointer;
+}
+
+.or_p{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 5px;
+}
+
+.qr_btn{
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
+.qr_btn:hover{
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: #b9b6b677;
+}
+
+.anchor_list1{
+    text-align: right;   
+}
+a{
+    margin: 3px 2px;
+    font-size: 3px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+.anchor_list2{
+    border-top: 1px solid gray;
+    text-align: center;   
+}

@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    margin: 55px 200px 0px 200px;
+}
+
+
+.sign_in_main_div{
+    width: 505px;
+    height: 485px;
+    margin: 10px 0px;
+    border: 1px solid rgb(218, 215, 215);
+    padding: 55px 75px 0px 75px;
+    text-align: center;
+
+}
+
+
+
+.progess_main{
+    background-color: rgb(228, 225, 225);
+    width: 50px;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.progress_bar{
+    background-color: rgb(68, 68, 68);
+    width: 20px;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.phone_div{
+    
+    display: inline-block;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid tomato;
+    
+}
+
+.select_country{
+    width: 80px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.phone_input{
+    padding-left: 10px;
+    border: none;
+    width: 310px;
+    font-size: 18px;
+    
+}
+
+.phone_button{
+    background-color: white;
+    border: 1px solid rgb(197, 194, 194);
+    border-radius: 20px;
+    padding: 5px 13px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.request_btn{
+    width: 500px;
+    height: 55px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
+.request_btn:hover{
+    width: 500px;
+    height: 55px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #dddddd;
+}
+
+.wrong_p{
+    text-align: left;
+    font-size: 12px;
+    margin: 7px 0px 70px 5px;
+    color: tomato;
+}
